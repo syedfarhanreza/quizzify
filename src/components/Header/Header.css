@@ -36,14 +36,14 @@ nav a:hover {
         grid-template-columns: 1fr;
     }
 
-    .position1 {
+    .side1 {
         position: absolute;
         top: 60px;
         background-color: #c8d6ca;
 
     }
 
-    .position2 {
+    .side2 {
         position: absolute;
         top: -300px;
     }

@@ -1,5 +1,9 @@
 # Getting Started with Create React App
-
+## Project Setup
+1. Create lots of components.
+2. adding RouterProvider and set router prop
+3. Created some path for nav items.
+4. Quiz section 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

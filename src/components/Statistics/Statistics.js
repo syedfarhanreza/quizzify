@@ -9,7 +9,7 @@ const Statistics = () => {
         <div>
             <h1 className='stats-header'>Quiz Charts</h1>
             <div className='chart'>
-                <LineChart width={600} height={400} data={stats.data}>
+                <LineChart width={500} height={300} data={stats.data}>
                     <Line type="monotone" dataKey="total" stroke="#82ca9d" />
                     <XAxis dataKey="name" />
                     <YAxis />

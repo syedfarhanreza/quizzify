@@ -20,7 +20,7 @@ const Header = () => {
             </div>
 
 
-            <div className={`nav-links ${open ? 'position1' : 'position2'}`} >
+            <div className={`nav-links ${open ? 'side1' : 'side2'}`} >
                 <Link to='/'>Home</Link>
                 <Link to='/topics'>Topics</Link>
                 <Link to='/statistics'>Statistics</Link>
