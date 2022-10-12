@@ -1,5 +1,5 @@
 nav {
-    background-color:lightblue;
+    background-color:cadetblue;
     padding: 20px;
     display: flex;
     justify-content: space-between;
@@ -11,13 +11,13 @@ nav {
     font-weight: 1000;
 }
 nav a {
-    color: #1a2d37;
+    color:blueviolet;
     text-decoration: none;
     padding: 30px;
 }
 
 nav a:hover {
-    color: black;
+    color:darkblue;
     font-weight: 900;
 
 }
