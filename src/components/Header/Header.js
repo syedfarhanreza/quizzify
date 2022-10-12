@@ -8,12 +8,11 @@ const Header = () => {
             <div>
                 <Link to='/' className='main-name'>Quizzify</Link>
             </div>
-            <div className='navBar'>
+            <div>
                 <Link to='/'>Home</Link>
                 <Link to='/topics'>Topics</Link>
                 <Link to='/statistics'>Statistics</Link>
                 <Link to='/blogs'>Blogs</Link>
-
             </div>
 
         </nav>

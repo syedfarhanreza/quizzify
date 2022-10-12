@@ -6,6 +6,7 @@ import Blogs from './components/Blogs/Blogs';
 import Home from './components/Home/Home';
 import OnlyTopics from './components/OnlyTopics/OnlyTopics';
 import Quiz from './components/Quiz/Quiz';
+import Statistics from './components/Statistics/Statistics';
 import WrongRoute from './components/WrongRoute/WrongRoute';
 import Main from './layout/Main';
 
@@ -38,7 +39,10 @@ function App() {
         },
         {
           path: '/statistics',
-          element: <Blogs></Blogs>
+          loader: async () => {
+            return fetch('https://openapi.programming-hero.com/api/quiz');
+          },
+          element: <Statistics></Statistics>
         },
         {
           path: '/blogs',
