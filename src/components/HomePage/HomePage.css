@@ -2,15 +2,19 @@
     background-image: url("Background.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    margin: 0;
+    opacity: 0.9;
     padding: 100px;
-    color:lawngreen;
+    color:darkviolet;
     font-family: Monospace;
 }
 
 .home-page h1 {
     font-size: 60px;
-    font-weight: 900;
+    font-weight: 1000;
+    margin: 30px;
+    background-color:whitesmoke;
+    border: 1px solid black;
+    opacity: 0.6;
 }
 
 @media screen and (max-width: 767px) {
