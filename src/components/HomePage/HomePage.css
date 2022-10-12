@@ -2,9 +2,8 @@
     background-image: url("Background.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    opacity: 0.9;
     padding: 100px;
-    color:darkviolet;
+    color:rgb(206, 249, 14);
     font-family: Monospace;
 }
 
@@ -12,9 +11,9 @@
     font-size: 60px;
     font-weight: 1000;
     margin: 30px;
-    background-color:whitesmoke;
+    background-color:cadetblue;
     border: 1px solid black;
-    opacity: 0.6;
+    opacity: 0.8;
 }
 
 @media screen and (max-width: 767px) {
