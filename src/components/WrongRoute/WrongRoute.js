@@ -1,11 +1,11 @@
 import React from 'react';
 
-const Topics = () => {
+const WrongRoute = () => {
     return (
         <div>
-            <h2>this is topics</h2>
+            Wrong Route
         </div>
     );
 };
 
-export default Topics;
+export default WrongRoute;

@@ -1,0 +1,23 @@
+nav {
+    background-color:lightblue;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-name {
+    color:darkviolet;
+    font-size: larger;
+    font-weight: 1000;
+}
+nav a {
+    color: #1a2d37;
+    text-decoration: none;
+    padding: 30px;
+}
+
+nav a:hover {
+    color: black;
+    font-weight: 900;
+
+}

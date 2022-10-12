@@ -1,0 +1,37 @@
+.question-section {
+    background-color: #d1dce2;
+    margin: 30px;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.question-section:hover {
+    background-color: #cacfd1;
+
+}
+
+
+.question {
+    font-size: medium;
+    text-align: left;
+}
+
+.question-answer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 25px;
+}
+
+.question-answer button {
+    border: none;
+    padding: 0;
+    margin: 0;
+    background: none;
+}
+
+.options {
+    text-align: start;
+}
+
+@media screen and (max-width: 767px) {}

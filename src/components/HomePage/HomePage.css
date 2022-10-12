@@ -1,0 +1,24 @@
+.home-page {
+    background-image: url("Background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 100px;
+    color:lawngreen;
+    font-family: Monospace;
+}
+
+.home-page h1 {
+    font-size: 60px;
+    font-weight: 900;
+}
+
+@media screen and (max-width: 767px) {
+    .home-page {
+        background-size: cover;
+    }
+    .home-page h1 {
+        font-size: 30px;
+        font-weight: 600;
+    }
+}

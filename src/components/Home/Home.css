@@ -1,0 +1,17 @@
+.topics-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 30px;
+}
+
+.header {
+    margin: 50px 50px 0 50px;
+    border-bottom: 2px solid #b3beb5;
+    padding-bottom: 10px;
+}
+
+@media screen and (max-width: 767px) {
+    .topics-container {
+        grid-template-columns: none;
+    }
+}
