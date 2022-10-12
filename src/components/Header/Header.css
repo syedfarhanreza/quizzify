@@ -6,18 +6,19 @@ nav {
 }
 
 .main-name {
-    color:darkviolet;
+    color:rgb(64, 0, 92);
     font-size: larger;
     font-weight: 1000;
 }
 nav a {
-    color:blueviolet;
+    color:rgb(42, 9, 73);
+    font-weight: bolder;
     text-decoration: none;
     padding: 30px;
 }
 
 nav a:hover {
-    color:darkblue;
+    color:rgb(225, 249, 4);
     font-weight: 900;
 
 }

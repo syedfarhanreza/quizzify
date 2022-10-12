@@ -3,4 +3,10 @@
     padding: 10px;
     text-align: start;
     margin: 5px 0;
+    border: 1px solid grey;
+    background-color:rgb(210, 210, 210);
+    border-radius: 10px;
+}
+.option-button:hover{
+    background-color: greenyellow;
 }
