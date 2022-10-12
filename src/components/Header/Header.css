@@ -22,3 +22,36 @@ nav a:hover {
     font-weight: 900;
 
 }
+.bar-icon {
+    height: 30px;
+    width: 30px;
+    background-color: #c8d6ca;
+}
+
+
+
+@media screen and (max-width: 767px) {
+    .nav-links {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .position1 {
+        position: absolute;
+        top: 60px;
+        background-color: #c8d6ca;
+
+    }
+
+    .position2 {
+        position: absolute;
+        top: -300px;
+    }
+
+}
+
+@media screen and (min-width: 767px) {
+    .bar-icon {
+        display: none;
+    }
+}

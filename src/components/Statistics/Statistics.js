@@ -5,7 +5,7 @@ import './Statistics.css'
 const Statistics = () => {
     const stats = useLoaderData();
     return (
-        <ResponsiveContainer width="100%" height="100%">
+        <ResponsiveContainer width="auto" height="auto">
         <div>
             <h1 className='stats-header'>Quiz Charts</h1>
             <div className='chart'>
